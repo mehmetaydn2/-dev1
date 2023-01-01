@@ -101,4 +101,40 @@ veya
     <li></li>
     <li></li>
 </ul>
-<!--  -->
+<!-- Tag eklerken onlara "class" özelliği vermek için ise "." kullanmamız gerekmektedir. örnek olarak ul>.class1>li.class2 yazıp tab tuşuna bastığımızda sınıf oluşturacaktır.-->
+<ul>
+    <li class="class1">
+        <li class="class2"></li>
+    </li>
+</ul>
+<!-- 3 adet class2 li oluşturmak istiyorsak eğer ul.class1>li.class2*3 yazarak oluşturabliliriz.  -->
+<ul class="class1">
+    <li class="class2"></li>
+    <li class="class2"></li>
+    <li class="class2"></li>
+</ul>
+<!-- bir ID eklemek istiyorsak "#" işareti kullanmamız gerekiyor. örnek olarak ul#id1>li#id2 yapalım. -->
+<ul id="id1">
+    <li id="id2"></li>
+</ul>
+<!-- birden çok id eklemek istiyorsak eğer şöyle yaparız ul>li#id1+li#id2+li#id3 şeklinde artan li idleri oluşturabiliriz. -->
+<ul>
+    <li id="id1"></li>
+    <li id="id2"></li>
+    <li id="id3"></li>
+</ul>
+<!-- Emmette otomatik artış gösteren sayıları daha kısa yoldan yazmayı mümkün kılmaktadır. Bu da "$" ifadesi sayesinde olmaktadır. yani ul>li#id1+li#id2+li#id3 yazmak yerine ul>li#idNo$*3 yazarak aynı sonucu elde edebiliriz. -->
+<ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+</ul>
+<!-- Bir diğer özelliğimiz oluşturduğumuz taglerin içine metin yazma nasıl olur. Yazmak istediğimiz kod etiketinden sonra "{}" içine yazmamız gereken metinleri yazmamız yeterli olacaktır. -->
+<p>En sevdiğim takım Galatasaray</p> --> p{En sevdiğim takım Galatasaray}
+<h1>MEHMET AYDIN</h1>
+<!-- Bir diğer emmet özelliğimiz ise yazacak metin bulamıyorsak ve boş görünmesin ya da metin konusu bulmakla uğraşmamak için "Lorem" kod etiketi geliştirilmiştir. Bunun için Lorem ifadesini yazmak yetecektir. Fakat çok uzun bir yazı olmasın Kısa olsun istiyorsanız da kaç kelimelik olmasını istiyorsanız Loremden sonra bir sayı belirtiniz. "Lorem3" -->
+<p>Lorem, ipsum dolor.</p>--> p>lorem3
+<!-- Son olarak ise tag vermeden ". veya #" ifadelerini kullanıp taba basarsak yani  .Classname olarak yazdıktan sonra taba basarsak bir "div" kodu içerisinde class oluşturacaktır fakat eğer ul içerisinde bunu kullanırsak bir li classı oluşturması gerektiğini bilecek. "ul>.Classname" yazıp taba basınca -->
+<ul>
+    <li class="Classname"></li>
+</ul>
