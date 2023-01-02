@@ -1,11 +1,17 @@
 <h1>Mehmet AYDIN</h1>
 <h2>Hakkımda</h2>
 <p>Merhabalar, 24 yaşındayım Hatay/Antakya doğumlu olup hala burda yaşamaktayım. Yaklaşık 4-5 aydır Diyetisyenlik mesleğiyle uğraşmaktayım. 14 temmuz 2022 yılında Lefke Avrupa Üniversitesi'nden 3.39 GANO ile mezun oldum ve okul kariyerim boyunca 2 kere olmak üzere şeref belgesiyle onurlandırıldım ve aynı zamanda Pearson İngilizce Hazırlık Akademisinden başarıyla ayrıldım ve okulum tarafından diplomayla taçlandırıldım. Üniversitem yurt dışında olup benim için çok zorlu zamanlar oldu fakat bir şekilde ayak uydurmayı başardım. Şuan hala aktif olarak iş arayışında olsam da yazılıma merak salıp kendimi daha da geliştirme hedefleri koydum kendime.</p>
+<br>
 <p>Üniversite kariyerim özelinde Beslenme ve Diyetetik lisans bölümünü ingilizce olarak okuyup tamamladım ve bu üniversite hayatımda iş deneyimi olarak Hatay Eğitim ve Araştırma Hastanesi, Hatay İl Gençlik Spor Bakanlığı ve Hatay Büyükşehir Belediyesi Sağlık işleri bünyesinde yaklaşım 10-11 ay boyunca uygulamalı staj eğitimi tamamladım. Bu stajları tamamlarken her kulvarda ve koşulda hocalarıma kendimi kanıtlamayı başardım ve herkese kendimi sevdirmeyi başardım.</p>
+
 <!-- Eğitim hayatım boyunca yaşadığım deneyimlerden bahsettim. -->
+
 <p>Lisans hayatımı sonlandırırken Seminer ve Tez makale yazımı ingilizce olarak yazdıktan sonra hocalarımın karşısında sunma becerisini gösterdim. Seminer konum 'Children Eating Habit's Focus on Fruit and Vegetable Intake' ve Tez konum ise 'Lefke Avrupa Üniversitesi öğrencilerinin pandemi dönemindeki beslenme alışkanlıklarının ve bozukluklarının incelenmesi' olmak üzere lisans hayatımı tamamladım. Hedeflerim arasında yüksek lisans ve doktora yaparak doçentlik ünvanına kadar ulaşabildiğim kadarıyla ilerlemek. </p>
+
 <!-- Gelecek zamanda yapmak istediklerimden ve hayallerimden bahsettim. -->
+
 <p>Bunlar dışında eskiden gelen alışkanlıklardan dolayı aktif olarak Futbol ve Basketbol oynamaktayım. Ayrıca bilgisayarda arkadaşlarımla oyunlar oynamaktan ve dışarılarda gezmekten çok keyif almaktayım.</p>
+
 <!-- Hobilerim arasında nelerin olduğunu anlattım. -->
 <h2>En sevdiğim Diziler</h2>
 <ol>
@@ -138,3 +144,100 @@ veya
 <ul>
     <li class="Classname"></li>
 </ul>
+
+<h1><strong>GÖRSELLERLE ÇALIŞMAK</strong></h1>
+<!-- Görsel eklemek istediğimizde "img" etiketini kullanıp taba basınca iki seçenek ortaya çıkar "src ve alt" olarak src kaynak olarak belirteceğimişz bölüm(URL veya bilgisayarda yer alıyorsa klasör belirtmeliyiz) alt ise resim açıklaması veya kısa bir resim yazısı olarak kullanmamız gerekir. Örneğin <img src="https://google.com" alt="Google logosu"> -->
+1.Web sitesinde bulunan bir fotoğrafı eklemek için örneğin ubuntunun sitesine girip bir görsele sağ tıklayıp resim adresini kopyala diyip src bölümüne yapıştırıyor alt kısmına da resim açıklaması yazarak oluşturabiliriz.
+
+<img src="https://assets.ubuntu.com/v1/a0f23d1b-Savings.svg" alt="Filli Kumbara">
+
+<!-- tüm resim dosyalarının sonu da .xbm, .gif, .png veya .jpg ile veya başka bir resim formatıyla bitmelidir. -->
+
+2.Proje klasörümüzde görseller mevcut ise görsel klasörü ismi ne ise onu da eklemek gerekmektedir. Örneğin Köpek görseli images klasörü içerisinde bulunmakta bunu koda eklemek istediğimizde <!-- <img src="images/köpek.jpg/" alt="Köpek görseli"/> --> olarak yazmak gerekiyor. Eğer resim bir üst dizinde yani bir önceki klasörde kalmış işe onu çağırmak için de <!-- <img src="../images/köpek.jpg/" alt="Köpek görseli"/> --> olarak yazmak gerekiyor. 
+
+3."title" kod etiketi bilgilendirme taşır ve Ek açıklama gerektirecek resimlerde kullanabiliriz.
+
+<!-- <img src="../images/köpek.jpg/" title="image" /> -->
+4. "width:yatay genişlik" ve "height:dikey uzunluk" kullanımı önemlidir. Görsel eklerken eğer bu tagleri kullanmazsak gerçek ölçüleriyle gelir. Fakat bu ölçülerden yalnız birine değer verildiğinde görsel oranı koruyarak boyutlanır. <!-- Her ikisine de değer vermek görselin piksel ve görüntüsünü bozabilir. --> Örnek aşağıdadır.
+<img src="https://assets.ubuntu.com/v1/a0f23d1b-Savings.svg" width="200" >
+<img src="https://assets.ubuntu.com/v1/a0f23d1b-Savings.svg" height="200" >
+<img src="https://assets.ubuntu.com/v1/a0f23d1b-Savings.svg" width="200" height="200" > 
+
+5. "border" kod etiketi görseli belirtilen kalınlıkta çerçeveye almaya yarar. Örneğin 
+
+<img src="images/Mehmet Aydın.jpg" border="3" /> 
+
+6. "align" bu özellik sayesinde sağa veya sola görseli yaslayabilmekteyiz ve left veya right seçeneği yazılmalıdır.
+
+<img src="images/Mehmet Aydın.jpg" align="right"/>
+
+7.Görsele link eklemek için öncelikle "a" tagi yazıp içerisine "img tagı eklenmeli" yönlendirmek istenilen web sayfasının URL'i href içerisine yazarak oluşturduktan sonra Görsel ise a taginin içerisine eklenir.
+
+<a href="https://www.google.com">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="width: auto; height: auto;" alt="googlelogo">
+</a>
+
+8. Görselleriniz hyperlink atamanız durumunda görselin tüm alanı link alanı haline dönüşecektir. Görselin herhangi bir yerine tıklanılması durumunda görsel sizi tanımlanan bağlantıya gönderecektir. <img> etiketleri için kullanılan <map> ve <area> etiketleri ile resmin içindeki koordinatlarla belirlediğimiz bir alanı sadece link haline getirebiliriz. Eklediğimiz <area> etiketi kadar belirlenen alanı bir resim üzerinden birçok bağlantıya link verebiliriz.
+
+    <html>
+    <body>
+        <img src="images/workplace.jpg" usemap="#workmap" width="400" height="379" alt="Workplace">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" href="https://en.wikipedia.org/wiki/Computer" alt="computer">
+            <area shape="rect" coords="290,172,333,250" href="https://en.wikipedia.org/wiki/Telephone" alt="Phone">
+            <area shape="circle" coords="337,300,44" href="https://en.wikipedia.org/wiki/Coffee" alt="Cup of coffee">
+        </map>
+    </body>
+    </html>
+
+    9."onload" Bu olay görsel yüklenmesi tamamlandığında çalışacak fonksiyonu belirler. Herhangi bir nedenle görsel yüklenemezse ya da belirtilen adreste resim yoksa fonksiyon çalışmaz. Aşağıdaki örnekte görsel yüklenmesi tamamlandığında resimYuklendi() fonksiyonu çalışacak ve ekrana Resim Yüklendi. uyarısı JavaScript tarafından bastırılacak. 
+
+    <html>
+        <body>
+            <img src="" onload="ResimYuklendi()" alt="">
+        </body>
+        <script>
+            function resimYuklendi(){alert("Resim Yüklendi.");}
+        </script>
+    </html>
+    10. HTML5 ile gelen picture elementi web sayfamızda responsive image'ler kullanmamız konusunda büyük kolaylıklar sağlıyor. Bir tane img ve birden fazla source içerebilir. picture tagi ekran boyutlarına göre birden çok source kulllanmamızı sağlar bu sayede ekran boyutu değiştikçe farklı image'leri kullanabilirsiniz.
+
+    Örnek: Burada ekran genişliğinin 800 pikselden küçük olduğu durumlarda başka diğer koşullarda ise başka bir görsel kullanılacak.
+
+    <picture>
+
+        <source media="(min-width: 800px)" srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png">
+        
+        <img src="/images/KODLUYORUZ.png" alt="">
+
+    </picture>
+
+    Tarayıcı, her bir source öğesini inceleyip eşleşme sağlar. Eşleşme bulunamazsa veya tarayıcı <picture> öğesini desteklemiyorsa, <img> öğesinin src URL'si seçilir. Seçilen görüntü daha sonra <img> öğesinin kapladığı alanda sunulur.
+
+    LİNKLERLE ÇALIŞMAK
+    <!--  Link vermek için <a></a> etiketini kullanmamız gerekmektedir. Böylelikle herhangi bir sayfaya, sayfa içine (sayfa sonuna inebilir), bir websitesine, e-mail atmak için, telefon etmek için ve dosya yolu belirtilen herhangi bir resim,video,zip dosyasına erişmek için kullanılır. -->
+    1.Hedefteki başka bir websitesine gitmesini sağlamak için href içerisine url girmemiz gerekmektedir fakat istediğimiz web sitesi farklı sekmede açılsın istiyorsak bunun için ise  Target="_blank" etiketi sayesinde hedefteki web sayfasına farklı sekmede gitmemizi sağlar. Ayrıca href etiketinden sonra Açıklama kısmına da yazı yazılmalı.
+    <!-- Aynı sekmede açılması için -->
+    <a href="https://www.instagram.com/">
+        İnstagram Sayfasına git
+    </a>
+    <!-- Farklı sekmede açılması ve kendi sayfamızı kaybetmemek içi target="_blank" etiketi kullanmak gerekiyor. -->
+    <a href="https://www.instagram.com/" target="_blank"> 
+        İnstagram sayfasına git
+    </a>
+    
+    2. Kendi proje kalsörümüzde oluşturduğumuz diğer dosyaya veya sayfaya  gidebilmek için ise bu sefer href içerisine "/htmldosyasıadı" oluşturduğumuz sayfayı yazmamız gerekiyor fakat bunla bitmiyor yönlendirdiğimiz sayfaya da aynı zamanda tekrar geri dönebilmemiz için ayrı bir link eklememiz gerekmektedir. Örneğin deneme.html sayfasına gitmek için link ekledik oraya yönlendirdik fakat sonra da deneme.html sayfasında index.html sayfasına geri dönebilmek için tekrar bir link eklememiz gerekiyor.
+    <a href="Deneme.html">
+        Deneme sayfasına git
+    </a>
+<!-- Deneme sayfasına gittikten sonra 
+<a href="index.html"> index sayfasına geri dön </a> deneme sayfasında link oluşturursak tekrardan eski veya anasayfaya dönebiliriz. -->
+    3. Sayfa içerisinde herhangi bir başlığa veya bölüm ya da sayfanın en aşağısına gidebilmek için <a href=""></a> taginin içine "name" etiketi ile birlikte ID bilgisi yani # işareti eklenmelidir. 
+
+    <a href="#sonbolum"> Aşağı git</a>
+    <a name="sonbolum"></a>
+
+    4. a etiketinin href özelliğine verilen "mailto:" ve "tel:" özellikleri sayesinde direkt olarak herhangi bir e-mail adresine posta gönderilebilir ya da geçerli bir telefon numarası aranabilir.
+    <a href="mailto:mehmet_aydn2@outlook.com"> Mehmet Aydın e-mail </a>
+    <a href="tel:+905387144109"> İrtibat Telefon </a>
+    
